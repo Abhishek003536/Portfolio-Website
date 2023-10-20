@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* CONTAINER */
+.projectcontainer{
+    display: flex;
+}
+
+/* SIDEBAR */
+.projectsidebar{
+    background-color: rgb(227 227 227);
+    width: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    /* z-index: -1; */
+    
+}
+#projectsidebarsticky{
+    position: fixed;
+    top: 0px;
+}
+.projectsidebar nav{
+    padding: 47px;
+}
+.projectsidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 55px 0px 0px 0px;
+}
+.projectsidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.projectsidebargo{
+    transform: translateX(-200px);
+    position: absolute;
+
+}
+
+/* MAIN */
+.projectmain{
+    width: 80vw;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    margin-left: 13rem;
+}
+.project{
+    margin-top: 2%;
+    margin-left: 13%;
+    width: 74%;
+    background-color: #f9f7f7;
+    border-radius: 3%;
+}
+.project h2{
+    margin-left: 25vw;
+    margin-top: 2rem;
+    color: #66bfbf;
+    font-size: 2.8rem;
+}
+.project-row{
+    width: 90%;
+    line-height: 3;
+    margin: 91px auto 109px 45px;
+
+}
+.project-row h3{
+    color: #66bfbf;
+    font-size: 180%;
+
+
+}
+.project-row li{
+    font-size: 100%;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+/* FOOTER */
+
+.bottom-container {
+    padding-top: 50px;
+    height: 120px;
+    background-color: #184a54;
+    text-align: center;
+    width: 100vw;
+    z-index: 1;
+}
+
+div {
+    display: block;
+}
+.bottom-container  a {
+    color: #11999e;
+    display: inline-block;
+    padding: 0 20px 30px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    font-family: "Montserrat", sans-serif;
+    
+
+
+}
+
+/* FOOTER */
+
+.bottom-container {
+    padding-top: 50px;
+    height: 120px;
+    background-color: #184a54;
+    text-align: center;
+    width: 100vw;
+    z-index: 1;
+}
+
+div {
+    display: block;
+}
+.bottom-container  a {
+    color: #11999e;
+    display: inline-block;
+    padding: 0 20px 30px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    font-family: "Montserrat", sans-serif;
+    
+
+
+}

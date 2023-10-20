@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* CONTAINER */
+.introcontainer{
+    display: flex;
+}
+
+/* SIDEBAR */
+.introsidebar{
+    background-color: rgb(227 227 227);
+    width: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    /* z-index: -1; */
+    
+}
+#introsidebarsticky{
+    position: fixed;
+    top: 0px;
+}
+.introsidebar nav{
+    padding: 47px;
+}
+.introsidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 55px 0px 0px 0px;
+}
+.introsidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.introsidebargo{
+    transform: translateX(-200px);
+    position: absolute;
+
+}
+.introcont {
+    background-color: rgb(251 251 251);
+    border-radius: 2%;
+    width: 90%;
+    margin: 6% auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+}
+.skillscont {
+    margin-top: 177px;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skillscont h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+}
+.skillscont h3{
+    font-family: 'Source Code Pro', monospace;
+    color: #11999e;
+}
+.skillscont p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* MAIN */
+.intromain{
+    width: 80vw;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    margin-left: 13rem;
+}
+
+
+.infocontainer-intro{
+    height: 70vh;
+    width: 40vw;
+    margin: 0px auto;
+    margin-bottom: 90px;
+    overflow: hidden;
+    
+}
+
+.devpic-intro img{
+    height: auto;
+    width: 35%;
+    border-radius: 80%;
+    margin: 50px 120px;
+}
+.skills{
+    margin-top: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.devinfo p{
+    line-height: 33px;
+}
+.skills h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+}
+.skills h3{
+    font-family: 'Source Code Pro', monospace;
+    color: #11999e;
+}
+
+
+.skill-row{
+    width: 80%;
+    text-align: left;
+    line-height: 2;
+    margin: 107px auto 121px auto;
+}
+.coding{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.webdevelop{
+    width: 25%;
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* FOOTER */
+
+.bottom-container {
+    padding-top: 50px;
+    height: 120px;
+    background-color: #184a54;
+    text-align: center;
+    width: 100vw;
+    z-index: 1;
+}
+
+div {
+    display: block;
+}
+.bottom-container  a {
+    color: #11999e;
+    display: inline-block;
+    padding: 0 20px 30px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    font-family: "Montserrat", sans-serif;
+    
+
+
+}

@@ -1,0 +1,454 @@
+@media only screen and (max-width:1360px){
+    .infocontainer{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 2%;
+
+        }
+    .devinfo{
+        margin-top: 9%;
+        align-items: center;
+        height: 31vh;
+        overflow: hidden;
+
+    }
+        
+    .project {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 4vw;    
+    }
+    .project-row {
+        margin: 61px 286px 42px 22px;
+    }
+   
+    .main{
+        height: 100vh;
+    }
+    .devpic-intro img{
+        height: auto;
+    width: 66%;
+    border-radius: 80%;
+    margin: 2rem 2rem;
+    }
+    .infocontainer-intro{
+        height: 100vh;
+    }
+    
+}
+
+    
+@media screen and (max-width :1100px) 
+{
+    .devinfo{
+        height: 30vh;
+
+    }
+    .devpic-intro img{
+        height: auto;
+    width: 66%;
+    border-radius: 80%;
+    margin: 2rem 2rem;
+    }
+    .infocontainer-intro{
+        height: 80vh;
+    }
+    .intromain{
+        margin-left: 7vw;
+        margin-top: 17vh;
+    }
+    .services h2{
+        margin-left: 40%;
+        margin-top: 2%;
+    }
+    .introsidebar {
+        width: 100%;
+        height: 9%;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #introsidebarsticky{
+        position: absolute;
+        top: 0;
+    }
+      .introsidebar a {
+        margin: 0vw 5vw;
+        font-size: 2vw;
+
+    }
+    .introsidebar li{
+        display: inline;  
+        font-size: 35px;
+
+
+    }
+    .introsidebar nav{
+        padding: 1rem;
+    }
+    .introsidebar ul{
+        margin-left: 6vw;
+    }
+
+    .projectsidebar {
+        width: 100%;
+        height: 9%;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #projectsidebarsticky{
+        position: absolute;
+        top: 0;
+    }
+      .projectsidebar a {
+        margin: 0vw 5vw;
+        font-size: 2vw;
+
+    }
+    .projectsidebar li{
+        display: inline;  
+        font-size: 35px;
+
+
+    }
+    .projectsidebar nav{
+        padding: 1rem;
+    }
+    .projectsidebar ul{
+        margin-left: 6vw;
+    }
+    .projectmain{
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+
+    }
+    .project{
+        margin: 20vh 16vw 5vh 5vw;
+    }
+    .project h2{
+        margin-left: 35vw;
+        font-size: 6vw;
+
+    }
+    .contactsidebar {
+        width: 100%;
+        height: 9%;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #contactsidebarsticky{
+        position: absolute;
+        top: 0;
+    }
+      .contactsidebar a {
+        margin: 0vw 5vw;
+        font-size: 2vw;
+
+    }
+    .contactsidebar li{
+        display: inline;  
+        font-size: 35px;
+
+
+    }
+    .contactsidebar nav{
+        padding: 1rem;
+    }
+    .contactsidebar ul{
+        margin-left: 6vw;
+    }
+    .contactmain{
+        width: 100vw;
+        margin: 11vw;
+        height: 100vh;
+
+    }
+    .contact{
+        margin: 20vh 16vw 5vh 5vw;
+    }
+    .contact h2{
+        margin-left: 35vw;
+        font-size: 6vw;
+
+    }
+}
+
+@media only screen and (max-width:850px){
+        .infocontainer{
+            margin-top: 5%;
+
+        }
+        .hello{
+          font-size: 5.5vw;
+        }   
+        .name{
+            font-size: 4.3vw;
+
+        } 
+        .about{
+            font-size: 2.5vw;
+
+        }
+        
+    }
+@media screen and (max-width:775px) {
+        .project h2{
+            margin-left: 40%;
+            margin-top: 2%;
+        }
+        .skillscont{
+            margin-left: 0rem;
+
+        }
+        .devinfo{
+            height: 40vh;
+    
+        }
+}
+ @media only screen and (max-width:700px){
+        
+        .devpic img{
+            height: auto;
+        }
+        .infocontainer{
+            margin-top: 25%;
+
+        }
+        .project h3{
+            font-size: 100%;
+        }
+        .project li{
+            font-size: 60%;
+        }
+       
+        .project h2{
+            margin-left: 33%;
+    
+        }
+        .contactform form {
+            margin-left: 10%;
+            margin-top: 55px;
+        }
+        .introcont{
+            margin-left: 3rem;
+        }
+}
+@media screen and (max-width:630px) {
+    .contactform {
+        font-family: 'Fira Sans', sans-serif;
+        padding-top: 65px;
+        padding-left: 0px;
+        background-color: #ededed;
+        border-radius: 2%;
+        width: 90vw;
+
+    }
+    .contactform h1 {
+        font-family: 'Source Code Pro', monospace;
+        text-align: center;
+        /* width: 100%; */
+        color: darkcyan;
+        font-size: 130%;
+    }
+    .input {
+        width: 60vw;
+        padding: 3px;
+        border-radius: 6px;
+        margin: 6px 0;
+    }
+    .contactform form div {
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .contactform form button {
+        color: white;
+        background-color: #184a54;
+        margin-top: 24px;
+        margin-bottom: 22px;
+        padding: 2px;
+        font-weight: bold;
+        font-size: 13px;
+        cursor: pointer;
+    }
+   
+}
+@media screen and (max-width:600px) {
+    .main{
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    .intromain{
+        margin-top: 15vh;
+        width: 100vw;
+        margin-left: -2vw;
+    }
+    .infocontainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        border-radius: 4%;
+        margin-top: 0%;
+        margin-left: 10%;
+        height: 128%;
+        width: 83%;
+    }
+    .infocontainer-intro {
+        height: 63vh;
+        width: 90vw;
+        margin: 40px auto;
+        margin-bottom: 90px;
+        overflow: hidden;
+        border-radius: 4%;
+    }
+    .introcont {
+        margin-left: 1.5rem;
+        margin-top: 0px;
+        height: fit-content;
+    }
+    .devpic-intro {
+        margin-top: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+    }
+    .devpic-intro img {
+        height: auto;
+        width: 35vw;
+        border-radius: 80%;
+        /* margin: 10px 151px; */
+    }
+    .devinfo {
+        margin-top: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+
+    }
+    .devinfo p {
+        line-height: 150%;
+        font-size: 90%;
+        font-weight: 600;
+        margin: 9%;
+        margin-top: -9%;
+
+    }
+    .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-items: center;
+        margin-top: -140px;
+        height: 150rem;
+    }
+    .skills h2 {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 2.5rem;
+        color: #66bfbf;
+        margin-left: 26%;
+        margin-top: -20%;
+    }
+    .skill-row {
+        width: 85%;
+        text-align: left;
+        line-height: 2;
+        /* margin: 7px auto 136px auto; */
+        margin-top: 1%;
+        overflow-y: hidden;
+        text-wrap: wrap;
+        
+    }
+    #sidebarsticky {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+    }
+    .sidebar ul {
+        margin-left: 0rem;
+    }
+    .skillscont{
+        margin-top: 22%;
+    height: fit-content;
+    }
+    .skillscont h2{
+        margin-bottom: 12%;
+
+    }
+
+   
+}
+
+
+
+
+
+@media screen and  (max-width:430px){
+    .contactmain{
+        margin: 0vw;
+        margin-top: 11vh;
+    }
+    .contactform {
+        font-family: 'Fira Sans', sans-serif;
+        padding-top: 65px;
+        padding-left: 0px;
+        background-color: #ededed;
+        border-radius: 2%;
+        height: 80vh;
+    }
+    .contactform h1 {
+        font-family: 'Source Code Pro', monospace;
+        text-align: center;
+        /* width: 100%; */
+        color: darkcyan;
+        font-size: 130%;
+    }
+    .input {
+        width: 60vw;
+        padding: 3px;
+        border-radius: 6px;
+        margin: 6px 0;
+    }
+    .contactform form div {
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .contactform form button {
+        color: white;
+        background-color: #184a54;
+        margin-top: 24px;
+        margin-bottom: 22px;
+        padding: 2px;
+        font-weight: bold;
+        font-size: 13px;
+        cursor: pointer;
+    }
+   
+    .infocontainer{
+        height: 90%;
+    }
+    .about{
+        justify-items: center;
+    text-align: center;
+    }
+    .introsidebar nav li a {
+        font-size: 3vw;
+        margin-left: 0vw;
+    }
+    .projectsidebar nav li a {
+        font-size: 3vw;
+        margin-left: 0vw;
+    }
+    .contactsidebar nav li a {
+        font-size: 3vw;
+        margin-left: 0vw;
+    }
+}
